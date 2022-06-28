@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="menu">
@@ -28,60 +30,138 @@
         <div class="header">
             <div class="search">
                 <img src="img/search.svg" alt="search" id="search-icon">
-            <input type="search" name="search_bar" id="search_bar"></div>
+                <input type="search" name="search_bar" id="search_bar">
+            </div>
             <div class="user-header">
                 <img src="img/alert.svg" alt="alert" id="alert-icon">
                 <img src="img/user-profile-image.svg" alt="profile icon" class="user-profile-icon">
                 <p id="username">Morgan Oakley</p>
             </div>
             <div id="welcome">
-                <div class="user-icon"><img src="img/user-profile-image.svg" alt="profile icon" class="user-profile-icon"></div>
-                <div id="welcome-message"><p>Hi there,</p>
-                    <p id="welcome-username">Morgan Oakley (@morgan)</p></div>
-                
+                <div class="user-icon"><img src="img/user-profile-image.svg" alt="profile icon"
+                        class="user-profile-icon"></div>
+                <div id="welcome-message">
+                    <p>Hi there,</p>
+                    <p id="welcome-username">Morgan Oakley (@morgan)</p>
+                </div>
+
             </div>
             <div class="action-buttons">
-            <button id="new_post">New</button>
-            <button id="upload">Upload</button>
-            <button id="share">Share</button>
+                <button id="new_post">New</button>
+                <button id="upload">Upload</button>
+                <button id="share">Share</button>
             </div>
-            
+
         </div>
         <div class="content">
             <div class="projects">
                 <h1 id="your-project-heading">Your Projects</h1>
                 <div class="items">
-                    <div class="project"><p class="project-title">Super Cool Project</p></div>
-                    <div class="project"><p class="project-title">Less Cool Project</p></div>
-                    <div class="project"><p class="project-title">Impossible App</p></div>
-                    <div class="project"><p class="project-title">Easy Peasy App</p></div>
-                    <div class="project"><p class="project-title">Ad Blocker</p></div>
-                    <div class="project"><p class="project-title">Money Maker</p></div>
-                    
-                    
+                    <div class="project">
+                        <p class="project-title">Super Cool Project</p>
+                        <p class="project-description">Phasellus sagittis, ipsum vel aliquet maximus, nulla ante
+                            ultricies ante, ac pellentesque nulla risus pellentesque eros. Integer porta dignissim
+                            velit, sed porta nisl gravida ut. Cras gravida facilisis erat, ullamcorper ultricies massa
+                            mattis vitae. Nulla consectetur dignissim magna vitae cursus. Aenean ultrices sapien odio,
+                            eu congue dolor aliquam suscipit. Maecenas.</p>
+                        <div class="project-social-btns"><img src="img/like.svg" alt="like icon" id="like-icon">
+                            <img src="img/watch.svg" alt="follow icon" id="follow-icon">
+                            <img src="img/fork.svg" alt="fork icon" id="fork-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Less Cool Project</p>
+                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+                            amet condimentum erat, a feugiat mi. Quisque pharetra congue fermentum. Nulla sed tempor
+                            libero. Donec cursus egestas lorem, nec iaculis risus maximus sit amet. Donec egestas erat
+                            viverra, suscipit lacus eget, consequat risus. Duis tempus ullamcorper rutrum. Aliquam
+                            fermentum odio.</p>
+                        <div class="project-social-btns"><img src="img/like.svg" alt="like icon" id="like-icon">
+                            <img src="img/watch.svg" alt="follow icon" id="follow-icon">
+                            <img src="img/fork.svg" alt="fork icon" id="fork-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Impossible App</p>
+                        <p class="project-description">Nulla ornare egestas magna, vitae lacinia mi scelerisque eu.
+                            Aenean aliquet mollis lacinia. Praesent gravida nisi at quam hendrerit blandit. Donec ut
+                            nulla imperdiet, consectetur lacus ac, posuere lacus. Nullam.</p>
+                        <div class="project-social-btns">
+                            <img src="img/like.svg" alt="like icon" id="like-icon">
+                            <img src="img/watch.svg" alt="follow icon" id="follow-icon">
+                            <img src="img/fork.svg" alt="fork icon" id="fork-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Easy Peasy App</p>
+                        <p class="project-description">Vestibulum imperdiet ligula in lorem fringilla, quis euismod
+                            sapien porttitor. Duis in urna imperdiet, fringilla magna sed, sodales enim. Quisque sit
+                            amet nunc ac ante finibus eleifend vehicula vel neque. Suspendisse lorem lacus, maximus at
+                            lorem id, finibus accumsan mi. Suspendisse finibus turpis vel aliquet.</p>
+                        <div class="project-social-btns"><img src="img/like.svg" alt="like icon" id="like-icon">
+                            <img src="img/watch.svg" alt="follow icon" id="follow-icon">
+                            <img src="img/fork.svg" alt="fork icon" id="fork-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Ad Blocker</p>
+                        <p class="project-description">Praesent lobortis sed ipsum ut ornare. Aenean finibus ante at mauris elementum sollicitudin. Ut libero quam, imperdiet sit amet magna et, consequat venenatis ante. In eget pharetra sem. Ut a pretium arcu. Aenean efficitur odio vitae ipsum.</p>
+                        <div class="project-social-btns"><img src="img/like.svg" alt="like icon" id="like-icon">
+                            <img src="img/watch.svg" alt="follow icon" id="follow-icon">
+                            <img src="img/fork.svg" alt="fork icon" id="fork-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <p class="project-title">Money Maker</p>
+                        <p class="project-description">
+                            Fusce tristique at ipsum id iaculis. Sed eu nulla rutrum, faucibus ante sit amet, ultricies urna. In hac habitasse platea dictumst. Sed hendrerit pulvinar hendrerit. Vivamus blandit aliquam mauris in mattis. Proin faucibus ligula vitae massa iaculis eleifend. Donec sem urna, consequat nec bibendum quis, placerat at purus. Integer sodales nisi ut odio viverra gravida. In non libero ac erat hendrerit commodo. Vivamus et urna pulvinar, aliquet.</p>
+                        <div class="project-social-btns"><img src="img/like.svg" alt="like icon" id="like-icon">
+                            <img src="img/watch.svg" alt="follow icon" id="follow-icon">
+                            <img src="img/fork.svg" alt="fork icon" id="fork-icon">
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
             <div class="right-pane">
-            <div class="announcements">
-                <h1 id="announcements-heading">Announcements</h1>
-                <div id="announcements-pane">
-                    <div>Site Maintenance</div>
-                    <div>Community Share Day</div>
-                    <div>Updated Privacy Policy</div>
+                <div class="announcements">
+                    <h1 id="announcements-heading">Announcements</h1>
+                    <div id="announcements-pane">
+                        <div>Site Maintenance</div>
+                        <div>Community Share Day</div>
+                        <div>Updated Privacy Policy</div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h1 id="trending-heading">Trending</h1>
+                    <div id="trending-pane">
+                        <div class="user">
+                            <img src="img/user-profile-image-2.svg" alt="profile icon" class="user-profile-icon">
+                            <p class="trending-user-name">@tegan</p>
+                            <p class="trending-project-name">World Peace Builder</p>
+                        </div>
+                        <div class="user">
+                            <img src="img/user-profile-image.svg" alt="profile icon" class="user-profile-icon">
+                            <p class="trending-user-name">@morgan</p>
+                            <p class="trending-project-name">Super Cool Project</p>
+                        </div>
+                        <div class="user">
+                            <img src="img/user-profile-image-3.svg" alt="profile icon" class="user-profile-icon">
+                            <p class="trending-user-name">@kendall</p>
+                            <p class="trending-project-name">Life Changing App</p>
+                        </div>
+                        <div class="user">
+                            <img src="img/user-profile-image-4.svg" alt="profile icon" class="user-profile-icon">
+                            <p class="trending-user-name">@alex</p>
+                            <p class="trending-project-name">No Traffic Maker</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="trending">
-                <h1 id="trending-heading">Trending</h1>
-                <div id="trending-pane">
-                    <div class="user">
-                        <img src="img/user-profile-image-2.svg" alt="profile icon" class="user-profile-icon"><p class="trending-user-name">@tegan</p><p class="trending-project-name">World Peace Builder</p></div>
-                    <div class="user"><img src="img/user-profile-image.svg" alt="profile icon" class="user-profile-icon"><p class="trending-user-name">@morgan</p><p class="trending-project-name">Super Cool Project</p></div>
-                    <div class="user"><img src="img/user-profile-image-3.svg" alt="profile icon" class="user-profile-icon"><p class="trending-user-name">@kendall</p><p class="trending-project-name">Life Changing App</p></div>
-                    <div class="user"><img src="img/user-profile-image-4.svg" alt="profile icon" class="user-profile-icon"><p class="trending-user-name">@alex</p><p class="trending-project-name">No Traffic Maker</p></div>
-                </div>
-            </div>
-        </div>
         </div>
     </div>
 </body>
+
 </html>
