@@ -162,14 +162,35 @@ h1{
 #announcements-pane {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-
+    padding: 10px 20px;
 }
 
-#announcements-pane div{
-    margin: 20px 20px 5px 20px;
+.announcement{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    margin-top: 10px;
 }
-#announcements-pane div:not(:last-child) {
-    border-bottom: 1px dotted gray;
+
+.announcement-title{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.announcement:not(:first-child) {
+    margin-top: 20px;
+}
+.announcement-info{
+    margin-top: 5px;
+    font-size: 0.7rem;
+    overflow: hidden;
+    align-self: start;
+    color: #777777;
+}
+
+.announcement:not(:last-child) {
+    border-bottom: 1px solid lightgray;
 }
 
 #trending-pane{
